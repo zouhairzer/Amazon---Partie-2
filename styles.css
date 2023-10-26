@@ -1,0 +1,842 @@
+*{
+    padding: 2px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+.sideBar{
+    background-color: blue;
+    display: block;
+    text-align: center;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: solid gray 1px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.leftarea{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: flex-start;
+    width: 70%;
+    align-items: center;
+    gap:20px;
+}
+
+.rightArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    width: 70%;
+    align-items: center;
+}
+
+.leftarea input{
+    width:200%;
+    height: 30px;
+}
+
+.img1{
+    width: 50%;
+    height: 50px;
+}
+
+.MAR{
+    margin: 0%;
+    font-size: 100%;
+}
+
+.img2{
+    width: 5%;
+    height: 30px;
+}
+
+.img3{
+    width: 5%;
+    height: 30px;
+}
+
+.BU1 {
+    border-right: gray solid;
+}
+
+header button{
+    border: none;
+    background-color: rgb(254, 254, 254);
+    font-size: 100%;
+}
+
+.Acc{
+    margin-top: 50px;
+    display: flex;
+    padding-left: 1%;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0%;
+    justify-content: space-between;
+}
+
+section > img {
+    width: 68%; 
+    height: 555px;
+}
+
+.Accessoires{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    margin-right:0%;
+}
+
+.el {
+    display: flex;
+    align-items: center;
+    border: solid 1px grey;
+    width:100%;
+    margin: 0%;
+    height: 50px;
+}
+
+.Products{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.Product1{
+    width: 20%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.BestRemis img{
+    width: 100%;
+
+}
+
+.Ellipse {
+    width: 2%; 
+    height: 1%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+div.Ellipse{
+    width: 100%;
+    display: flex;
+}
+.Ellipse img{
+    width: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border: solid;
+    width: 100%;
+    height: 100px;
+    font-size: 100%;
+    color: white;
+    background-color: rgb(39, 54, 86);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(157, 157, 157);
+    border: none;
+    text-decoration: none;
+}
+
+.Footer{
+    display: flex;
+    color: rgb(249, 246, 246);
+}
+
+h1{
+    margin: 6% 0% 4%;    
+    text-align: center;
+}
+
+.NP {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+
+.ET {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 7%;
+    font-size: 180%;
+}
+
+.Nom {
+    display: flex;
+    flex-direction: column;
+}
+
+.Prenom {
+    display: flex;
+    flex-direction: column;
+}
+
+.NP label{
+    font-size: 180%;
+    width: 100%;
+}
+
+.ET{
+    font-size: 180%;
+}
+
+.L{
+    font-size: 180%;
+}
+
+.input1,
+.input2{
+    width: 200%;
+    height: 40px;
+}
+
+.Email{
+    display: flex;
+    flex-direction: column;
+}
+
+.Tel{
+    display: flex;
+    flex-direction: column;
+}
+
+.input3,
+.input4{
+    width: 230%;
+    height: 40px;
+}
+
+.L{
+    display: flex;
+    flex-direction: column;
+}
+.input5{
+    height: 40px;
+    width: 100%;
+}
+
+
+.input6{
+    background-color: rgb(38, 213, 99);
+    position: relative;
+    font-size: 15px;
+    margin: 30px ;
+    left: 45%;
+    right:45%;
+    width: 10%;
+    height: 38px;
+    border: solid 2px;
+    cursor: grabbing;
+}
+
+
+#Productss{
+    flex-direction: column;
+    background-color:rgb(219, 209, 188);
+    position: absolute;
+    top: 90px;
+    right: 60px;
+    border: solid 2px;
+    width: 20%;
+    max-height: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: none;
+}
+
+#Productss div{ 
+    margin-top: 10%;
+    width: 80%;
+    height: 50%; 
+    position: relative;
+}
+
+#Rca{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.leftarea .img3{
+    display: none;
+}
+
+.leftarea .img1 input{
+    display: flex;
+}
+
+.img5{
+    display: none;
+}
+
+/*Mobile*/
+
+@media  (max-width: 660px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        max-width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .leftarea{
+        display: flex;
+        width: 100%; 
+        justify-content: center;  
+        justify-items: center;
+        gap:10px;     
+    }
+
+    .rightArea{
+        display: flex;
+        width: 100%; 
+        justify-content: center;  
+        justify-items: center; 
+    }
+
+    header button {
+        width: 17%;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        font-size: 11px;
+        align-items: center;
+        padding:1%;
+    }
+
+    .BU1{
+        border-right: rgb(75, 73, 73) solid 2px;
+        justify-content: center;
+    }
+
+    section > img {
+        width: 82%; 
+        height: fit-content;
+    }
+    
+    .Product1{
+        width: 50%;
+        display: flex;        
+        margin: 30px;
+    }
+
+    header{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .rightArea{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1%;
+    }
+
+    .leftarea input{
+        display: flex;
+        width:90%;
+        height: 20px;
+    }
+
+    .img1{
+        width: 30%;
+        height: 30px;
+    }
+
+    .MAR{
+        font-size: 10px;
+    }
+
+    .img2{
+        margin-right: 1%;
+        width: 8%;
+        height: 18px;
+    }
+
+    .img3{
+        width: 20px;
+        height: 15px;
+    }
+
+    .Acc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+        gap: 10px;
+    }
+
+    .el{
+        height: 23px;
+    }
+    
+    .Accessoires{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        display: none;
+    }
+
+    div.Ellipse{
+        width: 100%;
+    }
+    .Ellipse img{
+        width: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        width: 100%;
+        height: 60px;
+        font-size: 70%;
+        color: white;
+        background-color: rgb(39, 54, 86);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(157, 157, 157);
+        border: none;
+    }
+
+    .NP{
+        margin-left: 12px;
+        height: 40px;
+    }
+
+    .ET{
+        display: flex;
+        font-size: 90%;
+        margin-left: 10px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    
+    .Nom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Prenom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .NP label{
+        font-size: 90%;
+    }
+    
+    .input1,
+    .input2{
+        width: 80%;
+        height: 20px;
+    }
+    
+    .Email{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Tel{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input3{
+        width: 50%;
+        height: 25px;
+    }
+
+    .input4{
+        width: 70%;
+        height: 25px;
+    }
+    
+    .L{
+        font-size: 90%;
+        margin-left: 10px;
+    }
+
+    .Ladresse{
+        display: flex;
+        flex-direction: column;
+    }
+    .input5{
+        height: 25px;
+        width: 90%;
+    }
+
+    .input6{
+        background-color: rgb(38, 213, 99);
+        position: relative;
+        font-size: 15px;
+        border: none;
+        margin: 30px ;
+        left: 35%;
+        right:40%;
+        width: 20%;
+        height: 38px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+    }
+
+    #btn{
+        display: flex;
+    }
+
+    #Productss{
+        flex-direction: column;
+        background-color:rgb(219, 209, 188);
+        position: absolute;
+        top: 90px;
+        right: 60px;
+        border: solid 2px;
+        width: 20%;
+        max-height: 90%;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        display: none;
+    }
+    
+    #Productss div{ 
+        margin-top: 10%;
+        width: 80%;
+        height: 50%; 
+        position: relative;
+    }
+    
+    #Rca{
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .rightArea {
+        display: none;
+    }
+
+    .img5{
+        display: flex;
+        height: 2vh;
+    }
+}  
+
+
+/*Tablette*/
+
+@media (min-width: 660px) and (max-width: 990px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        max-width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .leftarea{
+        display: flex;
+        width: 100%; 
+        justify-content: center;  
+        justify-items: center;     
+    }
+
+    .rightArea{
+        display: flex;
+        width: 100%; 
+        justify-content: center;  
+        justify-items: center; 
+    }
+
+    header button {
+        width: 17%;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        font-size: 11px;
+        align-items: center;
+        padding:1%;
+    }
+
+    .BU1{
+        border-right: rgb(75, 73, 73) solid 2px;
+        justify-content: center;
+    }
+
+    section > img {
+        width: 82%; 
+        height: fit-content;
+    }
+    
+    .Product1{
+        width: 40%;
+        display: flex;        
+        margin: 30px;
+    }
+
+    header{
+        display: flex;
+    }
+
+    .rightArea{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1%;
+    }
+
+    .leftarea input{
+        width:100%;
+        height: 25px;
+    }
+
+    .img1{
+        width: 25%;
+        height: 30px;
+    }
+
+    .MAR{
+        font-size: 10px;
+    }
+
+    .img2{
+        margin-right: 1%;
+        width: 8%;
+        height: 18px;
+    }
+
+    .img3{
+        width: 20px;
+        height: 15px;
+    }
+
+    .Acc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+        gap: 10px;
+    }
+
+    .el{
+        height: 23px;
+    }
+    
+    .Accessoires{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        display: none;
+    }
+
+    div.Ellipse{
+        width: 100%;
+    }
+    .Ellipse img{
+        width: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        width: 100%;
+        height: 60px;
+        font-size: 70%;
+        color: white;
+        background-color: rgb(39, 54, 86);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(157, 157, 157);
+        border: none;
+    }
+
+    .NP{
+        margin-left: 12px;
+        height: 40px;
+    }
+
+    .ET{
+        display: flex;
+        font-size: 90%;
+        margin-left: 10px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    
+    .Nom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Prenom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .NP label{
+        font-size: 90%;
+    }
+    
+    .input1,
+    .input2{
+        width: 120%;
+        height: 25px;
+    }
+    
+    .Email{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Tel{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .input3{
+        width: 50%;
+        height: 25px;
+    }
+
+    .input4{
+        width: 70%;
+        height: 25px;
+    }
+    
+    .L{
+        font-size: 90%;
+        margin-left: 10px;
+    }
+
+    .Ladresse{
+        display: flex;
+        flex-direction: column;
+    }
+    .input5{
+        height: 25px;
+        width: 90%;
+    }
+
+    .input6{
+        background-color: rgb(213, 87, 38);
+        position: relative;
+        font-size: 15px;
+        margin: 30px ;
+        left: 35%;
+        right:40%;
+        width: 20%;
+        height: 38px;
+        cursor: grabbing;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+    }
+
+    #Productss{
+        flex-direction: column;
+        background-color:rgb(219, 209, 188);
+        position: absolute;
+        top: 90px;
+        right: 60px;
+        border: solid 2px;
+        width: 20%;
+        max-height: 90%;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        display: none;
+    }
+    
+    #Productss div{ 
+        margin-top: 10%;
+        width: 80%;
+        height: 50%; 
+        position: relative;
+    }
+    
+    #Rca{
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center; 
+    }
+
+   .rightArea{
+        display: none;
+   }
+
+    .img5{
+        display: flex;
+        height: 2vh;
+    }
+}
+
+
+    
